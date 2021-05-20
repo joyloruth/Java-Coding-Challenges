@@ -27,13 +27,11 @@ public class ExceptionHandling {
 		
 		 long power(int n, int p)
 		{
-			
-			
-			long product = n * p;
-			
+			double d = Math.pow(n, p);
+			long product = 0;
 			try
 			{
-				System.out.println("equals" + product);
+				System.out.println(product);
 			}
 			
 			catch(Exception e)
