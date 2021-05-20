@@ -17,35 +17,32 @@ public class ExceptionHandling {
 		int n = scan.nextInt();
 		int p = scan.nextInt();
 		
-		calc.power(n, p);
+		try {
+			System.out.println(calc.power(n, p));
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 			
 	}
 }
 
+	//Java Exception Handling
+	// 05/20/2021
 	class MyCalculator
 	{
 		
-		 long power(int n, int p)
+		long power(int n, int p) throws Exception
 		{
-			double d = Math.pow(n, p);
-			long product = 0;
-			try
-			{
-				System.out.println(product);
-			}
-			
-			catch(Exception e)
-			{
-				System.out.println(e);
-			}
-			
-			return product;
+			 if     (n <  0 || p <  0 ) throw new Exception("n or p should not be negative." );
+			 else if(n == 0 && p == 0 ) throw new Exception("n and p should not be zero." );
+			 else return (long)Math.pow(n, p);
+			  
 		}
-		
-	
-	
-	
-	
+			
+				
+	//Java Exception Handling (Try-Catch)
+	// 05/20/2021
 	public void math(){
 		
 		try{
