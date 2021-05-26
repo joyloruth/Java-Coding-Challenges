@@ -30,7 +30,7 @@ public class PlusMinus {
 			
 			else { ++neg;}
 		}*/
-			System.out.println("neg: " + neg  + " pos: " + pos + " zero: " + zero);
+			//System.out.println("neg: " + neg  + " pos: " + pos + " zero: " + zero);
 
 			
 			for(int num: arr) {
