@@ -3,7 +3,7 @@ package hackerRank;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class PatternSyntax {
+public class JavaMethodOverriding2 {
 
 	
 	public static void main(String[] args) {
