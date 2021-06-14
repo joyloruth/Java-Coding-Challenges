@@ -20,7 +20,7 @@ public class PatternSyntexChecker {
 		
 		for(int i = 0; i < testCases; i++) {
 			
-			String pattern = scan.next();
+			String pattern = scan.nextLine();
 			
 			try
 			{
