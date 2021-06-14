@@ -18,7 +18,7 @@ public class MyFrame extends JFrame implements MouseListener{
 	
 	MyFrame(){
 		
-		this.setSize(600,600);
+		this.setSize(600,900);
 		this.setVisible(true);
 		this.setLayout(null);
 		this.setResizable(false);
@@ -35,7 +35,7 @@ public class MyFrame extends JFrame implements MouseListener{
 		label.setOpaque(true);
 		
 		panel.setBounds(0, 0,200, 200);
-		panel.setBackground(Color.green);
+		panel.setBackground(Color.black);
 		panel.add(label);
 		
 		panel2.setBounds(0, 0,300, 300);
