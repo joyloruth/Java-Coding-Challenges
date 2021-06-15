@@ -26,7 +26,7 @@ public class JavaPalindrome
 			System.out.println("Palindrome");
 		}
 		
-		else System.out.println("not a Palindrome");
+		else System.out.println("Not a Palindrome");
 		
 		
 	}
