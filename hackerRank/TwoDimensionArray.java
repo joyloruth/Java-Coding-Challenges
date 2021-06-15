@@ -5,43 +5,25 @@ import java.util.Scanner;
 public class TwoDimensionArray {
 
 	public static void main(String[] args) {
-
-		Scanner scan = new Scanner(System.in);
 		
-		int num = scan.nextInt();
-		
-		String[] colorList = new String[num];
-		
-		
-		
-	/*	for(String[] row: carLot) {
-			System.out.println();
-			//System.out.print(" | ");
-			for(String column: row ){
-				System.out.print(column);
-				//System.out.print(" | ");
-			}
+		int[] arr = {1, 2, 3, 4, 5};			
 			
-		}*/
 		
+		int rotate_index = 0 ;
+		int i = 0;
+		int size = arr.length;
+		int[] rotate_arr = 	new int[size];
 		
-		for(int i = 0; i < num; i++) {
-			System.out.println("");
-			System.out.println("Print a color, please.");
-			
-			colorList[i] = scan.next();
-			
-				
-			
+		while(rotate_index < size) {
+			rotate_arr[i] = arr[rotate_index];
+			i++;
+			rotate_index++;
 		}
 		
-		System.out.println();
-		for(String color: colorList) {
-			System.out.print(color);
-			System.out.print(" | ");
+		 while(rotate_index < rotate_index)
+		for(int h: rotate_arr) {
+			System.out.println(h);
 		}
-		
-
 	
 	}
 }
