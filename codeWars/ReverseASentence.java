@@ -6,6 +6,14 @@ public class ReverseASentence {
 
 	public static void main(String[] args) {
 		
+		
+
+		
+		
+		
+	}
+		
+		
 	/*	String word = "I love myself";
 		
 		String[] sentence =  word.split(" ");
@@ -19,12 +27,9 @@ public class ReverseASentence {
 		
 		System.out.println(builder);*/
 		
-		ReverseASentence sent = new ReverseASentence();
-		String str = "I love myself";
 		
-		sent.reverseWords(str);
 		
-	}
+	
 	
 	public static String reverseWords(String str) {
 		
@@ -60,8 +65,7 @@ public class ReverseASentence {
 		
 		
 		System.out.println(builder);
-		return builder;
-		
+		return null;
 	}
 
 }
