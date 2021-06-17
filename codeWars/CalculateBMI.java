@@ -21,30 +21,16 @@ public class CalculateBMI {
 		
 		String num = "";
 		
-		if(bmi <= 18.5 ) {
-			num = "Underweight";
-			
-		}
-		
-		if(bmi > 18.5 && bmi <= 25.0) 
-			num = "Normal";
-			
-		
-		
-		if(bmi > 25.0 && bmi <= 30.0)
-			num = "Overweight";
-		
-		
-		if(bmi > 30) 
-			num = "Obese";
-		
+		if(bmi <= 18.5 ) num = "Underweight";
+		if(bmi > 18.5 && bmi <= 25.0) num = "Normal";
+		if(bmi > 25.0 && bmi <= 30.0) num = "Overweight";
+		if(bmi > 30) num = "Obese";
 		return num;
 		
-		
-		
-		
-		
 	}
+	
+	
+	
 	//Refactored solution
 	public static String bmi(double weight, double height) {
 	    
