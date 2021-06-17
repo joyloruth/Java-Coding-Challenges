@@ -8,25 +8,24 @@ public class MeanOfArray {
 	
 		int[] marks = {2,2,2,2,2};
 		
-		System.out.println(mean.getAverage(marks));
+		System.out.println();mean.getAverage(marks);
 
 	}
 	
 	public int getAverage(int[] marks) {
 		
 		
-		
+		int arrsize = marks.length;
 		int total = 0;
 		
-		for(int mark: marks )
-		{
-			total += mark;
+		for(int i = 0; i < marks.length; i++) {
+			total += marks[i];
 			
 		}
+		int mean = total/arrsize;
 		
 		
-		
-		return total/marks.length;
+		return mean;
 	}
 	
 	
