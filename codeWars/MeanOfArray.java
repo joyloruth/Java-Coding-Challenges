@@ -15,17 +15,18 @@ public class MeanOfArray {
 	public int getAverage(int[] marks) {
 		
 		
-		int arrsize = marks.length;
+		
 		int total = 0;
 		
-		for(int i = 0; i < marks.length; i++) {
-			total += marks[i];
+		for(int mark: marks )
+		{
+			total += mark;
 			
 		}
-		int mean = total/arrsize;
 		
 		
-		return mean;
+		
+		return total/marks.length;
 	}
 	
 	
