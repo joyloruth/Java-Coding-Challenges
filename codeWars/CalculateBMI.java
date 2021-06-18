@@ -1,18 +1,28 @@
 package codeWars;
 
+import java.util.Scanner;
+
 public class CalculateBMI {
 
 	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
 		
-		double weight = 180;
-		double height = 1.80;
+		int nb_petals = scan.nextInt();
+	
+		
+		///double weight = 180;
+		//double height = 1.80;
+		//int nb_petals = 2;
 		
 		CalculateBMI bmi = new CalculateBMI();
+		//System.out.println(bmi.howMuchILoveYou(nb_petals));
 		
-		System.out.println(bmi.calculateBMI(weight, height));
-		System.out.println(bmi.bmi(weight, height));
+		//System.out.println(bmi.calculateBMI(weight, height));
+		//System.out.println(bmi.bmi(weight, height));*/
 
 	}
+	
+	 
 	
 	//original solution
 	String calculateBMI(double weight, double height) {
