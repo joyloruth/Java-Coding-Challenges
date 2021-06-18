@@ -10,7 +10,7 @@ public class RemoveFirstLastLetters
 	
 
 	public static void main(String[] args) 
-	{
+	{	
 		String str = "eloquent";
 		System.out.println(RemoveFirstLastLetters.remove(str));
 		System.out.println(RemoveFirstLastLetters.removeLetters(str));
