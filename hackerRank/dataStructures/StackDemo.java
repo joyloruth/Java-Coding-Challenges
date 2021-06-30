@@ -1,4 +1,4 @@
-package dataStructures;
+package hackerRank.dataStructures;
 
 import java.util.Random;
 import java.util.Stack;

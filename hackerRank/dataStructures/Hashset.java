@@ -1,7 +1,7 @@
 /**
  * 
  */
-package hackerRank;
+package hackerRank.dataStructures;
 
 import java.util.HashSet;
 import java.util.Scanner;
