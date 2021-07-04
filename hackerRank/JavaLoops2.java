@@ -8,7 +8,7 @@ public class JavaLoops2 {
 		int num = 2;
 		int reps = 10;
 		
-		for(int i = start; i < reps; i++) {
+		for(int i = start; i <= reps; i++) {
 			System.out.println(i + num );
 		}
 		
