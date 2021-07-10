@@ -1,22 +1,68 @@
 package codeWars;
 
-public class FirstConsecutiveNumber {
+public class IsLoveAndGreet {
 
-	public static void main(String[] args) {
-		int[] arr = {1,2,3,4,5,7,8};
+	public static void main(String[] args) 
+	{
 		
-		for(int i = 0; i < arr.length; i++) {
-			
-			int nextIndex = i +1; 
-		 if(nextIndex == arr[i + 1]) {
-			 System.out.println("consec");
-		 }
-		 
-		 else System.out.println(arr[i]);
-			}
-			
-			
-
+		
+	
+		
 	}
+	
+	
+		
+		
+	static String greet(String name, String owner) {
+		
+        return name.equals(owner)? "Hello boss":"Hello guest";
+    }
+	
+	
+	public static boolean isLove(final int flower1, final int flower2) {
+		
+		
+		return (flower1%2 == 0 && flower2 %2 == 1 || flower2%2 == 0 && flower1 %2 == 1 ) ? true:false;
+	  }
+	  
 
-}
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static int squarenSum(int[] arr)
+	{
+			int sum = 0;
+			for(int i = 0; i < arr.length; i++)
+			{
+				sum += (int) Math.pow(arr[i], 2);
+				 
+			}
+			return sum;
+		}
+		
+			
+	}
+	
+	
+
+
