@@ -12,9 +12,22 @@ public class ReverseASentence {
 		
 		
 	}
+	
+	public static String reverseWords(String str) {
+
+		
+		String[] sentence = str.split(" ");
+		String word = "";
+		
+		for(int i = sentence.length - 1; i >= 0; i--) {
+			word+=sentence[i] ;
+			}
+		
+		return word;
+	}
 		
 		
-	/*	String word = "I love myself";
+	/*	String word = "I love lime";
 		
 		String[] sentence =  word.split(" ");
 		
@@ -31,7 +44,7 @@ public class ReverseASentence {
 		
 	
 	
-	public static String reverseWords(String str) {
+	public static String reverseWordss(String str) {
 		
 	   
 		

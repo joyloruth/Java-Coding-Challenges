@@ -4,13 +4,18 @@ public class JavaLoops2 {
 
 	public static void main(String[] args) {
 		
-		int start = 0;
-		int num = 2;
-		int reps = 10;
+	
+		int start = 5;
+		int steady =  3;
+		int count = 5;
 		
-		for(int i = start; i < reps; i++) {
-			System.out.println(i + num );
-		}
+		for(int i = 1; i < count; i++)
+		System.out.println(start + i + 3);
+		
+		
+		
+	
+	
 		
 		
 
