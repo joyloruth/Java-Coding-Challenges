@@ -5,10 +5,9 @@ public class IsLoveAndGreet {
 	public static void main(String[] args) 
 	{
 		
-		
-	 //
-		
 	}
+	
+	
 	
 	
 		
