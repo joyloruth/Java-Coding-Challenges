@@ -7,6 +7,8 @@ public class ComplementaryDNA {
 	public static void main(String[] args) {
 		String dna = "TATCCGG";
 		
+		System.out.println(zeroFuel(202, 101, 2));
+		
 		
 	}
 	
@@ -31,6 +33,15 @@ public class ComplementaryDNA {
 		 }
 		 
 		 return complement;
-	}
+	 }
+		 
+	 public static boolean zeroFuel(double distanceToPump, double mpg, double fuelLeft) {
+		
+		 
+		return (distanceToPump / mpg == fuelLeft)? true:false;
+	    
+	  }
+	 
+	 
 
 }

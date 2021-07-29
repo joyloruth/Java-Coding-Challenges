@@ -1,6 +1,7 @@
 package codeWars;
 
 import java.util.Scanner;
+//solved
 
 public class AbbreviateTwoNames {
 

@@ -1,27 +1,23 @@
 package codeWars;
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class CalculateBMI {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+		int[] args1 = {-34, 3450, -501, 10, 3000, 9000, -800, -75};
+		System.out.println(findSmallestInt(args1));
 		
-		int nb_petals = scan.nextInt();
-	
-		
-		///double weight = 180;
-		//double height = 1.80;
-		//int nb_petals = 2;
-		
-		CalculateBMI bmi = new CalculateBMI();
-		//System.out.println(bmi.howMuchILoveYou(nb_petals));
-		
-		//System.out.println(bmi.calculateBMI(weight, height));
-		//System.out.println(bmi.bmi(weight, height));*/
-
 	}
 	
+	
+	public static int findSmallestInt(int[] args) {
+		Arrays.sort(args);
+		int min = args[0];
+	      return min;
+	      
+
+    }
 	 
 	
 	//original solution
