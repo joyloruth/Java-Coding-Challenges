@@ -1,32 +1,61 @@
 package hackerRank.dataStructures;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LeftRotation 
 {
 
 	public static void main(String[] args) 
 	{
+		List<Integer> arr = new ArrayList<Integer>();
 		
-		int[] arr = {1,2,3,4,5};
-		int[] newArr = new int[arr.length];
-		int n = 5; 
-		int rotation = 4;
+		List<Integer> temp= new ArrayList<Integer>();
 		
-		for(int i = 0; i < arr.length; i++)
-		{
-			if(arr[i] == 5) {
-				newArr[i] = arr[i + 1];
-			}
+		int size = arr.size();
+		
+		for(int i = 0; i < size; i++ ) {
+			arr.add(10);
+			arr.add(20);
+			arr.add(30);
+			arr.add(40);
+			arr.add(50);
 		}
+		
 			
-		for(int i :arr) {
+		int target = 40;
+		int left_rotation = 2;
+		
+		int[] begin = new int[size];
+	
+
+		
+		for(int i = 0; i < left_rotation; i++) 
+		{
+			begin[i + left_rotation + 1] = arr.get(i);
+		}
+		
+		for(int i = left_rotation; i < arr.size(); i++)
+		{
+			begin[i - left_rotation] = arr.get(i);
+		}
+		
+		
+		for(int i : begin) {
 			System.out.println(i);
 		}
 		
-		String word = "word";
+		}
+	
+	public static int[] rotateArray() 
+	{
+		return null;
+			
 		
-		word.toLowerCase();
 		
 	}
+	
+	
 
 }
 

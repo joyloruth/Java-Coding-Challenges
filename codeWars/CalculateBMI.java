@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class CalculateBMI {
 
 	public static void main(String[] args) {
+		
+	
 		int[] args1 = {-34, 3450, -501, 10, 3000, 9000, -800, -75};
 		System.out.println(findSmallestInt(args1));
 		
