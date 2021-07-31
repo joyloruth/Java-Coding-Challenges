@@ -7,9 +7,9 @@ public class IsLoveAndGreet {
 		System.out.println(zeroFuel(50, 25, 1.0));
 	}
 	
-	
+	//Will you make it? distance to pump challenge
 	public static boolean zeroFuel(double distanceToPump, double mpg, double fuelLeft) {
-		    if( mpg == 0 || fuelLeft == 0) return false;
+		    if(distanceToPump == 0 && mpg == 0 && fuelLeft == 0) return false;
 		    return (distanceToPump / mpg == fuelLeft)? true:false;
 		  }
 	
