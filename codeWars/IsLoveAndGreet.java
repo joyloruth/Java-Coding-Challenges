@@ -4,11 +4,14 @@ public class IsLoveAndGreet {
 
 	public static void main(String[] args) 
 	{
-		
+		System.out.println(zeroFuel(50, 25, 1.0));
 	}
 	
 	
-	
+	public static boolean zeroFuel(double distanceToPump, double mpg, double fuelLeft) {
+		    if( mpg == 0 || fuelLeft == 0) return false;
+		    return (distanceToPump / mpg == fuelLeft)? true:false;
+		  }
 	
 		
 		
