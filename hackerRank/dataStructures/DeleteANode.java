@@ -1,6 +1,6 @@
 package hackerRank.dataStructures;
 
-import java.util.LinkedList;
+
 import java.util.Scanner;
 
 public class DeleteANode
@@ -21,7 +21,7 @@ public class DeleteANode
 	public static void main(String[] args)
 	{
 		
-		Scanner scanner =  new Scanner(System.in);
+		
 
 		DeleteANode node = new DeleteANode(); }
 		

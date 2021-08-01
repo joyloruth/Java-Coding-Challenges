@@ -17,6 +17,8 @@ public class PhoneBook {
 		for(int i = 0; i < n; i++) {
 			
 			phoneBook.put(name = scan.nextLine(), number = scan.nextInt());
+			
+			scan.close();
 		}
 		
 		

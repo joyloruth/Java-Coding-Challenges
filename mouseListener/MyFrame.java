@@ -11,6 +11,10 @@ import javax.swing.JPanel;
 
 public class MyFrame extends JFrame implements MouseListener{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JLabel label;
 	JPanel panel, panel2, panel3;
 	ImageIcon smile,nerd,kiss,mad;

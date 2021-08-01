@@ -35,11 +35,12 @@ public class ReturnNegative {
 		 String product = "";
 		 
 	        for(int i = 1;  i <= 10; i++) {
-		    	System.out.println(product = i + " * " +  num + " = " + i*num);
-	      return product;
-	    }
+		    	System.out.println(product = i + " * " +  num + " = " + i*num);}
 			return product;
+	    
+	    }
+			
 			
 	 }
 
-}
+

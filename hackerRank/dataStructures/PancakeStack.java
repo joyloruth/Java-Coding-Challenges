@@ -1,6 +1,6 @@
 package hackerRank.dataStructures;
 
-import java.util.Scanner;
+
 import java.util.Stack;
 
 public class PancakeStack {
@@ -10,7 +10,7 @@ public class PancakeStack {
 		
 		 Stack<Integer> stack = new Stack<Integer>();
 		 
-		 Scanner scan= new Scanner(System.in);
+		 
 		 
 		 stack.add(34);
 		 stack.add(45);
@@ -23,6 +23,8 @@ public class PancakeStack {
 		{
 			System.out.println( i + 1  + ". " + stack.elementAt(i));
 		}
+		
+		
 
 	}
 }

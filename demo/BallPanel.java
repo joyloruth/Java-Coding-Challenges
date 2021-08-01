@@ -16,6 +16,7 @@ public class BallPanel extends JPanel implements ActionListener, KeyListener {
 	
 	
 		
+		
 		final int WIDTH = 525, HEIGHT = 550; 
 		Timer t = new Timer(5, this);
 		double x = 0, velx = 0; 

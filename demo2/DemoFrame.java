@@ -1,10 +1,14 @@
 package demo2;
 
-import java.awt.Color;
+
 
 import javax.swing.JFrame;
 
 public class DemoFrame  extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	DemoPanel panel;
 	
 	DemoFrame(){
@@ -13,7 +17,7 @@ public class DemoFrame  extends JFrame {
 		this.setSize(500, 500);
 		this.setLayout(null);
 		this.setVisible(true);
-		this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 	}
 

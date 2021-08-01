@@ -1,13 +1,18 @@
 package demo2;
 
 import java.awt.Color;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+
+
 
 import javax.swing.JPanel;
 
 public class DemoPanel extends JPanel {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	DemoPanel(){
 		
 		this.setBackground(Color.black);

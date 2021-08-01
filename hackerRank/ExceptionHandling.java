@@ -16,7 +16,11 @@ public class ExceptionHandling {
 		Scanner scan = new Scanner(System.in);
 		
 		int n = scan.nextInt();
+		scan.close();
 		int p = scan.nextInt();
+		scan.close();
+		
+		scan.close();
 		
 		try {
 			System.out.println(calc.power(n, p));
@@ -51,9 +55,13 @@ public class ExceptionHandling {
 			Scanner scan = new Scanner(System.in);
 			
 			int x = scan.nextInt();
+			scan.close();
 			int y = scan.nextInt();
+			scan.close();
 			
 			int difference = x/y;
+			
+			
 			
 			System.out.println(difference);
 			
@@ -66,6 +74,7 @@ public class ExceptionHandling {
 		catch(ArithmeticException e){
 			System.out.println(e);
 		}
+		
 		
 	}
 
