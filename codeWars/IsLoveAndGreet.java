@@ -4,7 +4,27 @@ public class IsLoveAndGreet {
 
 	public static void main(String[] args) 
 	{
-		System.out.println(zeroFuel(50, 25, 1.0));
+		System.out.println(solution(1));
+	}
+	
+	public static String solution(int n ) {
+		
+		n = 1990;
+		String encode = null;
+		
+		if(n%1000 == 0) {
+			encode+="M";
+		}
+		
+		
+		if ( n == 1) {return "I";}
+		if ( n == 5) {return "V";}
+		if ( n == 10) {return "X";}
+		if ( n == 50) {return "L";}
+		if ( n == 100) {return "C";}
+		if ( n == 500) {return "D";}
+		return "M";
+		
 	}
 	
 	//Will you make it? distance to pump challenge
